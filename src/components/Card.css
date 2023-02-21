@@ -1,0 +1,35 @@
+.Card {
+    color:black;
+    background-color: white;
+    
+    padding-bottom: 20px;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    font-size: medium;
+    border-radius: 14px;
+    backdrop-filter: blur(2px);
+
+    text-align: center;
+    margin-bottom: 30px;
+
+    height:450px;
+
+    
+}
+
+.Card img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+h4 {
+    margin-top:0px;
+    font-size: 18px;
+}

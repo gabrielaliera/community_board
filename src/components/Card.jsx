@@ -1,11 +1,12 @@
 import React from "react";
+import'./Card.css'
 
 const Card = (props) =>{
     return(
         <div className = "Card">
-            <img src="" alt=""/>
-            <h2>{props.event}</h2>
-            <h3>{props.foodType}</h3> 
+            <img className="truck" src={props.img} alt={props.alt}/>
+            <h2>{props.name}</h2>
+            <h3>{props.cuisine}</h3> 
         </div>
     );
 
